@@ -1,3 +1,4 @@
+/* DICHIARAZIONI BASE */
 body {
     background-color: #FFF;
     margin: 0;
@@ -8,29 +9,40 @@ header, main, footer {
     width: 100%;
 }
 
+/* HEADER PRINCIPALE*/
 body > header {
     background-color: #E579E6;
     height: 100px;
     margin-bottom: 50px;
 }
 
+/* SEZIONE GIALLA */
 main > section:first-child {
     background-color: #E1D67A;
     height: 500px;
     margin-bottom: 50px;
 }
 
+/* SEZIONE BLU */
 main > section:last-child {
     background-color: #0186FF !important;
     height: 700px;
 }
 
+main > section:last-child::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* HEADER SECONDARIO */
 main > section > header {
     background-color: #ABCFE7;
     height: 100px;
     margin-bottom: 50px;
 }
 
+/* TRE COLONNE */
 main > section > aside, main > section > section {
     background-color: #ABCFE7;
     height: 100%;
@@ -55,6 +67,7 @@ main > section > aside:nth-child(4) {
     float: right;
 }
 
+/* FOOTER */
 footer {
     background-color: #8801FE;
     height: 50px;
