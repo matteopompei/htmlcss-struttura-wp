@@ -27,6 +27,7 @@ main > section:first-child {
 main > section:last-child {
     background-color: #0186FF !important;
     height: 700px;
+    margin-bottom: 50px;
 }
 
 main > section:last-child::after {
@@ -45,7 +46,7 @@ main > section > header {
 /* TRE COLONNE */
 main > section > aside, main > section > section {
     background-color: #ABCFE7;
-    height: 100%;
+    height: 500px;
     box-sizing: border-box;
     margin-bottom: 50px !important;
 }
