@@ -21,7 +21,8 @@ main > section:first-child {
 }
 
 main > section:last-child {
-    background-color: #0186FF;
+    background-color: #0186FF !important;
+    height: 700px;
 }
 
 main > section > header {
@@ -32,7 +33,7 @@ main > section > header {
 
 main > section > aside, main > section > section {
     background-color: #ABCFE7;
-    height: 700px;
+    height: 100%;
     box-sizing: border-box;
     margin-bottom: 50px !important;
 }
